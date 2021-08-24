@@ -8,7 +8,7 @@ setup(
     extras_require={"dev": ["pytest", "black==21.7b0"]},
     entry_points={
         "console_scripts": [
-            "leads = leads.script:main",
+            "leads = leads.main:diff",
         ],
     },
 )

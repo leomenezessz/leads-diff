@@ -18,7 +18,7 @@ from leads.validators import validate_excel_file_param
     required=True,
     callback=validate_excel_file_param,
 )
-def main(new, old, excel):
+def diff(new, old, excel):
     try:
         leads_to_add, leads_to_remove = DataFormatter(
             excel_file_path=excel, new_leads_sheet=new, old_leads_sheet=old
