@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+venv/
+leads.egg-info
+*/__pycache__/
